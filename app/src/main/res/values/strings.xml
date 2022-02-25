@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stop Smoking</string>
+    <string name="hello">Привет!</string>
+    <string name="forward">Вперед</string>
+    <string name="description">Бросить курить – это не просто желание.
+        Это потребность, которая есть у каждого человека.
+        Ведь для того, чтобы жить полноценно, человеку необходимо дышать свежим воздухом,
+        питаться здоровой пищей, заниматься физкультурой!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_me_title">Коротко о себе:</string>
+    <string name="name_title">Имя</string>
+    <string name="age_text">Возраст</string>
+    <string name="text_count_of_sigar">Сколько пачек сигарет в день курите</string>
+    <string name="next">Далее</string>
+    <string name="text_view_settings">Настройки</string>
+    <string name="advice_text">Советы</string>
+    <string name="count_days">10 дней</string>
+    <string name="rejection_date">Сколько дней не курите</string>
+    <string name="price_pack">Стоимость, пачки, картриджа</string>
+</resources>

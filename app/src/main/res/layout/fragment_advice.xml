@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillColor="#FFFFFF"
+    tools:context=".ui.advice.AdviceFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_for_main"
+        android:layout_width="16sp"
+        android:layout_height="16sp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="328.16dp"
+        android:layout_marginBottom="646.16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_item" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_back"
+        android:layout_width="72dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="646.16dp"
+        android:gravity="center_vertical"
+        android:text="Назад"
+        android:textColor="#FC4921"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back_for_main"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="630dp"
+        android:background="@drawable/line_21"
+        android:visibility="visible"
+        android:strokeColor="#C6C6C8"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/fact_of_the_day"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="557dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="Факт дня"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="328dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="434dp"
+        android:text="По данным немецкой медицинской компании DKV, ежегодно от последствий курения в Германии умирает от 110 тысяч до 140 тысяч человек, то есть 300 - 400 жителей страны ежедневно."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fact_of_the_day" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

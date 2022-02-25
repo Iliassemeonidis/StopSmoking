@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InformationFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/settings"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="625dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/setting_item" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="89dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="624dp"
+        android:text="@string/text_view_settings"
+        android:textColor="#C8B598"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/settings"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/advice"
+        android:layout_width="24dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="629dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/advice_item" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/advice_text"
+        android:layout_width="64dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="628dp"
+        android:text="@string/advice_text"
+        android:textColor="#C8B598"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_not_smoke"
+        android:layout_width="327dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="540dp"
+        android:gravity="center"
+        android:text="Не курил:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advice_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/count_of_the_days"
+        android:layout_width="327dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="500dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/count_days"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_not_smoke" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/packs_of_cigarettes_text"
+        android:layout_width="327dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="450dp"
+        android:gravity="center"
+        android:text="Пачек сигарет:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count_of_the_days" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/count_of_cigarettes_text"
+        android:layout_width="327dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="410dp"
+        android:gravity="center"
+        android:text="750 штук"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/packs_of_cigarettes_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_economy"
+        android:layout_width="327dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="360dp"
+        android:gravity="center"
+        android:text="Экономия:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count_of_cigarettes_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/count"
+        android:layout_width="343dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="320dp"
+        android:gravity="center"
+        android:text="50 124 рубля"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_economy" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
